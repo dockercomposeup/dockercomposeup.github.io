@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Run IBM's Swift Kitura Sample
-caption: Run IBM's Swift Kitura Sample
+title: Swift on the Server with IBM Kitura
+caption: Start experimenting with Swift on the server by running the IBM Kitura Sample.
 date: 2016-09-01 00:00:00 -0500
 image: '/assets/img/'
 main-class: 'swift'
