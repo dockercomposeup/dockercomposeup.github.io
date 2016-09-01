@@ -1,0 +1,37 @@
+# Site settings
+title: Sample Apps Using docker-compose up
+description: Sample Apps
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.dockercomposeup.com" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: dockercomposeup
+user_description: dockercomposeup
+email: info@dockercomposeup.com
+twitter_username: dockercomposeup
+github_username:  dockercomposeup
+disqus_username: dockercomposeup
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Tags
+    url: /tags
+  
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']

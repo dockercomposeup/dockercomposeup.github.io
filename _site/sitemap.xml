@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+        <url>
+            <loc>http://www.dockercomposeup.com/about/index.html</loc>
+        </url>
+    
+        <url>
+            <loc>http://www.dockercomposeup.com/category/css/</loc>
+        </url>
+    
+        <url>
+            <loc>http://www.dockercomposeup.com/category/dev/</loc>
+        </url>
+    
+        <url>
+            <loc>http://www.dockercomposeup.com/feed.xml</loc>
+        </url>
+    
+        <url>
+            <loc>http://www.dockercomposeup.com/category/html/</loc>
+        </url>
+    
+        <url>
+            <loc>http://www.dockercomposeup.com/</loc>
+        </url>
+    
+        <url>
+            <loc>http://www.dockercomposeup.com/category/jekyll/</loc>
+        </url>
+    
+        <url>
+            <loc>http://www.dockercomposeup.com/category/js/</loc>
+        </url>
+    
+        <url>
+            <loc>http://www.dockercomposeup.com/category/misc/</loc>
+        </url>
+    
+        <url>
+            <loc>http://www.dockercomposeup.com/search.json</loc>
+        </url>
+    
+        <url>
+            <loc>http://www.dockercomposeup.com/series/index.html</loc>
+        </url>
+    
+        <url>
+            <loc>http://www.dockercomposeup.com/sitemap.xml</loc>
+        </url>
+    
+        <url>
+            <loc>http://www.dockercomposeup.com/category/svg/</loc>
+        </url>
+    
+        <url>
+            <loc>http://www.dockercomposeup.com/tags/index.html</loc>
+        </url>
+    
+    
+        <url>
+            <loc>http://www.dockercomposeup.com/spark-notebook-wordcount/</loc>
+        </url>
+  
+        <url>
+            <loc>http://www.dockercomposeup.com/rethinkdb-changes/</loc>
+        </url>
+  
+        <url>
+            <loc>http://www.dockercomposeup.com/rethinkdb-crud/</loc>
+        </url>
+  
+        <url>
+            <loc>http://www.dockercomposeup.com/rethinkdb-intro/</loc>
+        </url>
+  
+        <url>
+            <loc>http://www.dockercomposeup.com/misc-intro/</loc>
+        </url>
+  
+</urlset>

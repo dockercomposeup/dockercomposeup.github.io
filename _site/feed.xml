@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sample Apps Using docker-compose up</title>
+    <description>Sample Apps</description>
+    <link>http://www.dockercomposeup.com/</link>
+    <atom:link href="http://www.dockercomposeup.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 01 Sep 2016 16:13:54 -0500</pubDate>
+    <lastBuildDate>Thu, 01 Sep 2016 16:13:54 -0500</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Intro. to Apache Spark and Python Notebooks</title>
+        <description>&lt;p&gt;In this video I’ll show you how to use Python Notebooks and Apache Spark
+to perform simple analysis on the Back to the Future transcript.&lt;/p&gt;
+
+&lt;p&gt;This tutorial uses a Docker Image that I created and can be found at:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://hub.docker.com/r/markwatsonatx/spark-notebook&quot;&gt;https://hub.docker.com/r/markwatsonatx/spark-notebook&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The Docker Image contains Apache Spark 2.0.0-preview pre-built for Hadoop 2.7. It also includes Python 3.5
+and &lt;a href=&quot;https://www.continuum.io/why-anaconda&quot;&gt;Anaconda&lt;/a&gt; for running &lt;a href=&quot;http://jupyter.org/&quot;&gt;Python Notebooks&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Dockerfile can be found at:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/markwatsonatx/Dockerfiles/tree/master/spark-notebook-2.0.0-preview&quot;&gt;https://github.com/markwatsonatx/Dockerfiles/tree/master/spark-notebook-2.0.0-preview&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/zy9JB7sxjGs&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Sun, 03 Jul 2016 09:00:00 -0500</pubDate>
+        <link>http://www.dockercomposeup.com/spark-notebook-wordcount/</link>
+        <guid isPermaLink="true">http://www.dockercomposeup.com/spark-notebook-wordcount/</guid>
+        
+        <category>spark</category>
+        
+        <category>notebook</category>
+        
+        <category>jupyter</category>
+        
+        <category>python</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Intro. to RethinkDB Changefeeds using Node.js</title>
+        <description>&lt;p&gt;This video shows you how to use RethinkDB Changefeeds to push events from RethinkDB to WebSocket connected clients via Node.js.&lt;/p&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/dabkH3bUXHI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Fri, 24 Jun 2016 09:00:00 -0500</pubDate>
+        <link>http://www.dockercomposeup.com/rethinkdb-changes/</link>
+        <guid isPermaLink="true">http://www.dockercomposeup.com/rethinkdb-changes/</guid>
+        
+        <category>rethinkdb</category>
+        
+        <category>nodejs</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>RethinkDB CRUD example using Node.js</title>
+        <description>&lt;p&gt;This video provides shows you how to perform simple CRUD operations in RethinkDB via Node.js.&lt;/p&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/2CJtBQ0rOYc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Wed, 22 Jun 2016 09:00:00 -0500</pubDate>
+        <link>http://www.dockercomposeup.com/rethinkdb-crud/</link>
+        <guid isPermaLink="true">http://www.dockercomposeup.com/rethinkdb-crud/</guid>
+        
+        <category>rethinkdb</category>
+        
+        <category>nodejs</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Intro to RethinkDB using Node.js</title>
+        <description>&lt;p&gt;This video provides a basic overview of the RethinkDB Administration Console and a brief intro to connecting to RethinkDB via Node.js.&lt;/p&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/K4q9POtIs4g&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Sat, 18 Jun 2016 09:00:00 -0500</pubDate>
+        <link>http://www.dockercomposeup.com/rethinkdb-intro/</link>
+        <guid isPermaLink="true">http://www.dockercomposeup.com/rethinkdb-intro/</guid>
+        
+        <category>rethinkdb</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Intro to Sample Apps using Docker Compose</title>
+        <description>&lt;p&gt;This video shows you how to use Docker Compose to make it super easy to download, run, and experiment with tutorials.&lt;/p&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/6fyKSu1cxGc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Thu, 16 Jun 2016 01:00:00 -0500</pubDate>
+        <link>http://www.dockercomposeup.com/misc-intro/</link>
+        <guid isPermaLink="true">http://www.dockercomposeup.com/misc-intro/</guid>
+        
+        <category>misc</category>
+        
+        <category>docker</category>
+        
+        <category>docker compose</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+[
+  
+    {
+      "title"    : "Intro. to Apache Spark and Python Notebooks",
+      "tags"     : "spark, notebook, jupyter, and python",
+      "url"      : "/spark-notebook-wordcount/",
+      "date"     : "03 Jul 2016"
+    } ,
+  
+    {
+      "title"    : "Intro. to RethinkDB Changefeeds using Node.js",
+      "tags"     : "rethinkdb and nodejs",
+      "url"      : "/rethinkdb-changes/",
+      "date"     : "24 Jun 2016"
+    } ,
+  
+    {
+      "title"    : "RethinkDB CRUD example using Node.js",
+      "tags"     : "rethinkdb and nodejs",
+      "url"      : "/rethinkdb-crud/",
+      "date"     : "22 Jun 2016"
+    } ,
+  
+    {
+      "title"    : "Intro to RethinkDB using Node.js",
+      "tags"     : "rethinkdb",
+      "url"      : "/rethinkdb-intro/",
+      "date"     : "18 Jun 2016"
+    } ,
+  
+    {
+      "title"    : "Intro to Sample Apps using Docker Compose",
+      "tags"     : "misc, docker, and docker compose",
+      "url"      : "/misc-intro/",
+      "date"     : "16 Jun 2016"
+    } 
+  
+]
