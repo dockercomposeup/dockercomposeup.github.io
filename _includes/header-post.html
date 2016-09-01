@@ -12,10 +12,12 @@
         {% endif %}
         <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
         <p itemprop="description" class="subtitle">{{ page.description }}</p>
-        <code>
-            git clone {{ page.gitrepo }}<br>
-            cd {{ page.gitfolder }}<br>
-            docker-compose up
-        </code>
+        {% if page.gitrepo %}
+            <code>
+                git clone {{ page.gitrepo }}<br>
+                cd {{ page.gitfolder }}<br>
+                docker-compose up
+            </code>
+        {% endif %}
     </div>
 </header>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Intro. to Apache Spark and Python Notebooks
+title: Intro to Apache Spark and Python Notebooks
 caption: Sample Python Notebook that uses Apache Spark to analyze the Back to the Future transcript.
 date: 2016-07-03 09:00:00 -0500
 image: '/assets/img/'

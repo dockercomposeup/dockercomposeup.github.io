@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Intro. to RethinkDB Changefeeds using Node.js
+title:  Intro to RethinkDB Changefeeds using Node.js
 caption: Use RethinkDB Changefeeds to push events from RethinkDB to WebSocket connected clients via Node.js.
-date:   2016-06-24 09:00:00 -0500
+date: 2016-06-24 09:00:00 -0500
 image: '/assets/img/'
 main-class: 'rethinkdb'
 tags:
