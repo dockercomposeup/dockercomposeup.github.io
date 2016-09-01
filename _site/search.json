@@ -1,14 +1,21 @@
 [
   
     {
-      "title"    : "Intro. to Apache Spark and Python Notebooks",
+      "title"    : "Run IBM&#39;s Swift Kitura Sample",
+      "tags"     : "swift, ibm, and kitura",
+      "url"      : "/swift-kitura-sample/",
+      "date"     : "01 Sep 2016"
+    } ,
+  
+    {
+      "title"    : "Intro to Apache Spark and Python Notebooks",
       "tags"     : "spark, notebook, jupyter, and python",
       "url"      : "/spark-notebook-wordcount/",
       "date"     : "03 Jul 2016"
     } ,
   
     {
-      "title"    : "Intro. to RethinkDB Changefeeds using Node.js",
+      "title"    : "Intro to RethinkDB Changefeeds using Node.js",
       "tags"     : "rethinkdb and nodejs",
       "url"      : "/rethinkdb-changes/",
       "date"     : "24 Jun 2016"

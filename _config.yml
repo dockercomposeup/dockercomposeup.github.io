@@ -1,5 +1,5 @@
 # Site settings
-title: Sample Apps Using docker-compose up
+title: Sample Apps Using Docker Compose
 description: Sample Apps
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.dockercomposeup.com" # the base hostname & protocol for your site e.g. http://willianjusten.com.br

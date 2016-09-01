@@ -1,16 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sample Apps Using docker-compose up</title>
+    <title>Sample Apps Using Docker Compose</title>
     <description>Sample Apps</description>
     <link>http://www.dockercomposeup.com/</link>
     <atom:link href="http://www.dockercomposeup.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Sep 2016 16:13:54 -0500</pubDate>
-    <lastBuildDate>Thu, 01 Sep 2016 16:13:54 -0500</lastBuildDate>
+    <pubDate>Thu, 01 Sep 2016 16:32:55 -0500</pubDate>
+    <lastBuildDate>Thu, 01 Sep 2016 16:32:55 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
-        <title>Intro. to Apache Spark and Python Notebooks</title>
+        <title>Run IBM&#39;s Swift Kitura Sample</title>
+        <description>&lt;p&gt;Run the &lt;a href=&quot;https://github.com/IBM-Swift/Kitura-Sample&quot;&gt;IBM Swift Kitura Sample&lt;/a&gt; using Docker Compose.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Sep 2016 00:00:00 -0500</pubDate>
+        <link>http://www.dockercomposeup.com/swift-kitura-sample/</link>
+        <guid isPermaLink="true">http://www.dockercomposeup.com/swift-kitura-sample/</guid>
+        
+        <category>swift</category>
+        
+        <category>ibm</category>
+        
+        <category>kitura</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Intro to Apache Spark and Python Notebooks</title>
         <description>&lt;p&gt;In this video I’ll show you how to use Python Notebooks and Apache Spark
 to perform simple analysis on the Back to the Future transcript.&lt;/p&gt;
 
@@ -43,7 +60,7 @@ and &lt;a href=&quot;https://www.continuum.io/why-anaconda&quot;&gt;Anaconda&lt;
       </item>
     
       <item>
-        <title>Intro. to RethinkDB Changefeeds using Node.js</title>
+        <title>Intro to RethinkDB Changefeeds using Node.js</title>
         <description>&lt;p&gt;This video shows you how to use RethinkDB Changefeeds to push events from RethinkDB to WebSocket connected clients via Node.js.&lt;/p&gt;
 
 &lt;iframe width=&quot;640&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/dabkH3bUXHI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;

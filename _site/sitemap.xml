@@ -59,6 +59,10 @@
     
     
         <url>
+            <loc>http://www.dockercomposeup.com/swift-kitura-sample/</loc>
+        </url>
+  
+        <url>
             <loc>http://www.dockercomposeup.com/spark-notebook-wordcount/</loc>
         </url>
   
