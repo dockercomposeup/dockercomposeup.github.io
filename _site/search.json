@@ -8,6 +8,13 @@
     } ,
   
     {
+      "title"    : "Intro to Apache Spark and Scala Notebooks",
+      "tags"     : "spark, notebook, jupyter, scala, and python",
+      "url"      : "/spark-notebook-wordcount-scala/",
+      "date"     : "10 Jul 2016"
+    } ,
+  
+    {
       "title"    : "Intro to Apache Spark and Python Notebooks",
       "tags"     : "spark, notebook, jupyter, and python",
       "url"      : "/spark-notebook-wordcount/",

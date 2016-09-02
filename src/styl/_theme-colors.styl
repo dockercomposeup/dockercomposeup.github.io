@@ -1,5 +1,5 @@
 themes = {
-    post-rethinkdb: #214753,
+    post-rethinkdb: #189D9C,
     post-css: #2DA0C3,
     post-js: #D6BA32,
     post-html: #EB7728,
@@ -39,7 +39,7 @@ for theme, category-color in themes
                 text-shadow 3px 3px darken(category-color, 20%)
         .bar-header
             .logo a
-                color category-color
+                color main
         .author .email,
         .author .github
             color category-color
@@ -54,7 +54,7 @@ for theme, category-color in themes
                     +below(cut)
                         background-color category-color
         .icon-menu
-            fill category-color
+            fill main
             
         .box-body
             h2
@@ -63,9 +63,9 @@ for theme, category-color in themes
                 color category-color
                 border 1px solid category-color
         aside
-            background-color category-color
+            background-color main
             nav li a:hover
-                color category-color
+                color main
         .ribbon span
             background-color category-color
             &:before

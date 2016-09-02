@@ -5,8 +5,8 @@
     <description>Sample Apps</description>
     <link>http://www.dockercomposeup.com/</link>
     <atom:link href="http://www.dockercomposeup.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Sep 2016 16:41:24 -0500</pubDate>
-    <lastBuildDate>Thu, 01 Sep 2016 16:41:24 -0500</lastBuildDate>
+    <pubDate>Thu, 01 Sep 2016 20:22:19 -0500</pubDate>
+    <lastBuildDate>Thu, 01 Sep 2016 20:22:19 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -22,6 +22,39 @@
         <category>ibm</category>
         
         <category>kitura</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Intro to Apache Spark and Scala Notebooks</title>
+        <description>&lt;p&gt;In this sample I’ll show you how to use Scala Notebooks and Apache Spark
+to perform simple analysis on the Back to the Future transcript.&lt;/p&gt;
+
+&lt;p&gt;This tutorial uses a Docker Image that I created and can be found at:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://hub.docker.com/r/markwatsonatx/spark-notebook&quot;&gt;https://hub.docker.com/r/markwatsonatx/spark-notebook&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The Docker Image contains Apache Spark 1.6.1 for Hadoop 2.6. It also includes Scala 2.10, Python 3.5,
+&lt;a href=&quot;https://www.continuum.io/why-anaconda&quot;&gt;Anaconda&lt;/a&gt;, and kernels for running Scala and Python &lt;a href=&quot;http://jupyter.org/&quot;&gt;notebooks&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Dockerfile can be found at:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/markwatsonatx/Dockerfiles/tree/master/spark-notebook-1.6.1&quot;&gt;https://github.com/markwatsonatx/Dockerfiles/tree/master/spark-notebook-1.6.1&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 Jul 2016 09:00:00 -0500</pubDate>
+        <link>http://www.dockercomposeup.com/spark-notebook-wordcount-scala/</link>
+        <guid isPermaLink="true">http://www.dockercomposeup.com/spark-notebook-wordcount-scala/</guid>
+        
+        <category>spark</category>
+        
+        <category>notebook</category>
+        
+        <category>jupyter</category>
+        
+        <category>scala</category>
+        
+        <category>python</category>
         
         
       </item>
