@@ -12,6 +12,12 @@ themes = {
 
 for theme, category-color in themes
     .{theme}
+        .post-code
+            max-width 800px
+            text-align left
+            margin auto
+            code
+                color sec
         .title-category
             color category-color
         .post-content
@@ -35,8 +41,7 @@ for theme, category-color in themes
         .header-post,
         .header-site
             background-color category-color
-            h1
-                text-shadow 3px 3px darken(category-color, 20%)
+            color sec
         .bar-header
             .logo a
                 color main
@@ -52,7 +57,7 @@ for theme, category-color in themes
             &.search-overlay 
                 &:after
                     +below(cut)
-                        background-color category-color
+                        background-color back
         .icon-menu
             fill main
             
