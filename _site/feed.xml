@@ -5,13 +5,37 @@
     <description>Sample Apps</description>
     <link>http://www.dockercomposeup.com/</link>
     <atom:link href="http://www.dockercomposeup.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 02 Sep 2016 19:50:03 -0500</pubDate>
-    <lastBuildDate>Fri, 02 Sep 2016 19:50:03 -0500</lastBuildDate>
+    <pubDate>Sat, 03 Sep 2016 00:43:34 -0500</pubDate>
+    <lastBuildDate>Sat, 03 Sep 2016 00:43:34 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>Swift on the Server with IBM Kitura</title>
-        <description>&lt;p&gt;Run the &lt;a href=&quot;https://github.com/IBM-Swift/Kitura-Sample&quot;&gt;IBM Swift Kitura Sample&lt;/a&gt; using Docker Compose.&lt;/p&gt;
+        <description>&lt;h3 id=&quot;ports-and-urls&quot;&gt;Ports and URLs&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Port&lt;/th&gt;
+      &lt;th&gt;URL&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kitura Sample&lt;/td&gt;
+      &lt;td&gt;38090&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://127.0.0.1:38090&quot;&gt;http://127.0.0.1:38090&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
+
+&lt;p&gt;Run and experiment with the &lt;a href=&quot;https://github.com/IBM-Swift/Kitura-Sample&quot;&gt;IBM Swift Kitura Sample&lt;/a&gt; in Docker.&lt;/p&gt;
+
+&lt;p&gt;The local src folder will be mapped to the Docker container.
+Changes to the code in the src folder will be monitored by the Docker process, re-compiled, and the HTTP server will be restarted.&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Sep 2016 00:00:00 -0500</pubDate>
         <link>http://www.dockercomposeup.com/swift-kitura-sample/</link>
@@ -28,20 +52,7 @@
     
       <item>
         <title>Intro to Apache Spark and Scala Notebooks</title>
-        <description>&lt;p&gt;In this sample I’ll show you how to use Scala Notebooks and Apache Spark
-to perform simple analysis on the Back to the Future transcript.&lt;/p&gt;
-
-&lt;p&gt;This tutorial uses a Docker Image that I created and can be found at:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://hub.docker.com/r/markwatsonatx/spark-notebook&quot;&gt;https://hub.docker.com/r/markwatsonatx/spark-notebook&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The Docker Image contains Apache Spark 1.6.1 for Hadoop 2.6. It also includes Scala 2.10, Python 3.5,
-&lt;a href=&quot;https://www.continuum.io/why-anaconda&quot;&gt;Anaconda&lt;/a&gt;, and kernels for running Scala and Python &lt;a href=&quot;http://jupyter.org/&quot;&gt;notebooks&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The Dockerfile can be found at:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/markwatsonatx/Dockerfiles/tree/master/spark-notebook-1.6.1&quot;&gt;https://github.com/markwatsonatx/Dockerfiles/tree/master/spark-notebook-1.6.1&lt;/a&gt;&lt;/p&gt;
-</description>
+        <description>&lt;h3 id=&quot;ports-and-urls&quot;&gt;Ports and URLs&lt;/h3&gt; &lt;table&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;Name&lt;/th&gt; &lt;th&gt;Port&lt;/th&gt; &lt;th&gt;URL&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;Notebooks&lt;/td&gt; &lt;td&gt;38889&lt;/td&gt; &lt;td&gt;&lt;a href=&quot;http://127.0.0.1:38889&quot;&gt;http://127.0.0.1:38889&lt;/a&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt; &lt;p&gt;In this sample I’ll show you how to use Scala Notebooks and Apache Spark to perform simple analysis on the Back to the Future transcript.&lt;/p&gt; &lt;p&gt;This tutorial uses a Docker Image that I created and can be found at:&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://hub.docker.com/r/markwatsonatx/spark-notebook&quot;&gt;https://hub.docker.com/r/markwatsonatx/spark-notebook&lt;/a&gt;&lt;/p&gt; &lt;p&gt;The Docker Image contains Apache Spark 1.6.1 for Hadoop 2.6. It also includes Scala 2.10, Python 3.5, &lt;a href=&quot;https://www.continuum.io/why-anaconda&quot;&gt;Anaconda&lt;/a&gt;, and kernels for running Scala and Python &lt;a href=&quot;http://jupyter.org/&quot;&gt;notebooks&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;The Dockerfile can be found at:&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://github.com/markwatsonatx/Dockerfiles/tree/master/spark-notebook-1.6.1&quot;&gt;https://github.com/markwatsonatx/Dockerfiles/tree/master/spark-notebook-1.6.1&lt;/a&gt;&lt;/p&gt;...</description>
         <pubDate>Sun, 10 Jul 2016 09:00:00 -0500</pubDate>
         <link>http://www.dockercomposeup.com/spark-notebook-wordcount-scala/</link>
         <guid isPermaLink="true">http://www.dockercomposeup.com/spark-notebook-wordcount-scala/</guid>
@@ -61,22 +72,7 @@ to perform simple analysis on the Back to the Future transcript.&lt;/p&gt;
     
       <item>
         <title>Intro to Apache Spark and Python Notebooks</title>
-        <description>&lt;p&gt;In this video I’ll show you how to use Python Notebooks and Apache Spark
-to perform simple analysis on the Back to the Future transcript.&lt;/p&gt;
-
-&lt;p&gt;This tutorial uses a Docker Image that I created and can be found at:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://hub.docker.com/r/markwatsonatx/spark-notebook&quot;&gt;https://hub.docker.com/r/markwatsonatx/spark-notebook&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The Docker Image contains Apache Spark 2.0.0-preview pre-built for Hadoop 2.7. It also includes Python 3.5
-and &lt;a href=&quot;https://www.continuum.io/why-anaconda&quot;&gt;Anaconda&lt;/a&gt; for running &lt;a href=&quot;http://jupyter.org/&quot;&gt;Python Notebooks&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The Dockerfile can be found at:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/markwatsonatx/Dockerfiles/tree/master/spark-notebook-2.0.0-preview&quot;&gt;https://github.com/markwatsonatx/Dockerfiles/tree/master/spark-notebook-2.0.0-preview&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe width=&quot;640&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/zy9JB7sxjGs&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-</description>
+        <description>&lt;h3 id=&quot;ports-and-urls&quot;&gt;Ports and URLs&lt;/h3&gt; &lt;table&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;Name&lt;/th&gt; &lt;th&gt;Port&lt;/th&gt; &lt;th&gt;URL&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;Notebooks&lt;/td&gt; &lt;td&gt;38889&lt;/td&gt; &lt;td&gt;&lt;a href=&quot;http://127.0.0.1:38889&quot;&gt;http://127.0.0.1:38889&lt;/a&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt; &lt;p&gt;In this video I’ll show you how to use Python Notebooks and Apache Spark to perform simple analysis on the Back to the Future transcript.&lt;/p&gt; &lt;p&gt;This tutorial uses a Docker Image that I created and can be found at:&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://hub.docker.com/r/markwatsonatx/spark-notebook&quot;&gt;https://hub.docker.com/r/markwatsonatx/spark-notebook&lt;/a&gt;&lt;/p&gt; &lt;p&gt;The Docker Image contains Apache Spark 2.0.0-preview pre-built for Hadoop 2.7. It also includes Python 3.5 and &lt;a href=&quot;https://www.continuum.io/why-anaconda&quot;&gt;Anaconda&lt;/a&gt; for running &lt;a href=&quot;http://jupyter.org/&quot;&gt;Python Notebooks&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;The Dockerfile can be found at:&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://github.com/markwatsonatx/Dockerfiles/tree/master/spark-notebook-2.0.0-preview&quot;&gt;https://github.com/markwatsonatx/Dockerfiles/tree/master/spark-notebook-2.0.0-preview&lt;/a&gt;&lt;/p&gt; &lt;iframe width=&quot;640&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/zy9JB7sxjGs&quot;...</description>
         <pubDate>Sun, 03 Jul 2016 09:00:00 -0500</pubDate>
         <link>http://www.dockercomposeup.com/spark-notebook-wordcount/</link>
         <guid isPermaLink="true">http://www.dockercomposeup.com/spark-notebook-wordcount/</guid>
@@ -94,7 +90,33 @@ and &lt;a href=&quot;https://www.continuum.io/why-anaconda&quot;&gt;Anaconda&lt;
     
       <item>
         <title>Intro to RethinkDB Changefeeds using Node.js</title>
-        <description>&lt;p&gt;This video shows you how to use RethinkDB Changefeeds to push events from RethinkDB to WebSocket connected clients via Node.js.&lt;/p&gt;
+        <description>&lt;h3 id=&quot;ports-and-urls&quot;&gt;Ports and URLs&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Port&lt;/th&gt;
+      &lt;th&gt;URL&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Node.js&lt;/td&gt;
+      &lt;td&gt;33000&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://127.0.0.1:33000&quot;&gt;http://127.0.0.1:33000&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RethinkDB&lt;/td&gt;
+      &lt;td&gt;38080&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://127.0.0.1:38080&quot;&gt;http://127.0.0.1:38080&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
+
+&lt;p&gt;This video shows you how to use RethinkDB Changefeeds to push events from RethinkDB to WebSocket connected clients via Node.js.&lt;/p&gt;
 
 &lt;iframe width=&quot;640&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/dabkH3bUXHI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
@@ -111,7 +133,33 @@ and &lt;a href=&quot;https://www.continuum.io/why-anaconda&quot;&gt;Anaconda&lt;
     
       <item>
         <title>RethinkDB CRUD example using Node.js</title>
-        <description>&lt;p&gt;This video provides shows you how to perform simple CRUD operations in RethinkDB via Node.js.&lt;/p&gt;
+        <description>&lt;h3 id=&quot;ports-and-urls&quot;&gt;Ports and URLs&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Port&lt;/th&gt;
+      &lt;th&gt;URL&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Node.js&lt;/td&gt;
+      &lt;td&gt;33000&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://127.0.0.1:33000&quot;&gt;http://127.0.0.1:33000&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RethinkDB&lt;/td&gt;
+      &lt;td&gt;38080&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://127.0.0.1:38080&quot;&gt;http://127.0.0.1:38080&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
+
+&lt;p&gt;This video provides shows you how to perform simple CRUD operations in RethinkDB via Node.js.&lt;/p&gt;
 
 &lt;iframe width=&quot;640&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/2CJtBQ0rOYc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
@@ -128,7 +176,33 @@ and &lt;a href=&quot;https://www.continuum.io/why-anaconda&quot;&gt;Anaconda&lt;
     
       <item>
         <title>Intro to RethinkDB using Node.js</title>
-        <description>&lt;p&gt;This video provides a basic overview of the RethinkDB Administration Console and a brief intro to connecting to RethinkDB via Node.js.&lt;/p&gt;
+        <description>&lt;h3 id=&quot;ports-and-urls&quot;&gt;Ports and URLs&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Port&lt;/th&gt;
+      &lt;th&gt;URL&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Node.js&lt;/td&gt;
+      &lt;td&gt;33000&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://127.0.0.1:33000&quot;&gt;http://127.0.0.1:33000&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RethinkDB&lt;/td&gt;
+      &lt;td&gt;38080&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://127.0.0.1:38080&quot;&gt;http://127.0.0.1:38080&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
+
+&lt;p&gt;This video provides a basic overview of the RethinkDB Administration Console and a brief intro to connecting to RethinkDB via Node.js.&lt;/p&gt;
 
 &lt;iframe width=&quot;640&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/K4q9POtIs4g&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
@@ -143,7 +217,28 @@ and &lt;a href=&quot;https://www.continuum.io/why-anaconda&quot;&gt;Anaconda&lt;
     
       <item>
         <title>Intro to Sample Apps using Docker Compose</title>
-        <description>&lt;p&gt;This video shows you how to use Docker Compose to make it super easy to download, run, and experiment with tutorials.&lt;/p&gt;
+        <description>&lt;h3 id=&quot;ports-and-urls&quot;&gt;Ports and URLs&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Port&lt;/th&gt;
+      &lt;th&gt;URL&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Node.js&lt;/td&gt;
+      &lt;td&gt;33000&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://127.0.0.1:33000&quot;&gt;http://127.0.0.1:33000&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
+
+&lt;p&gt;This video shows you how to use Docker Compose to make it super easy to download, run, and experiment with tutorials.&lt;/p&gt;
 
 &lt;iframe width=&quot;640&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/6fyKSu1cxGc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>

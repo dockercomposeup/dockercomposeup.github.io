@@ -98,7 +98,7 @@
         
             <div class="post-code">
                 <code>
-                    git clone https://github.com/markwatsonatx/tutorial-swift-kitura-sample<br>
+                    git clone <a href="https://github.com/markwatsonatx/tutorial-swift-kitura-sample" style="font-size: 1.0em"><code>https://github.com/markwatsonatx/tutorial-swift-kitura-sample</code></a><br>
                     cd tutorial-swift-kitura-sample<br>
                     docker-compose up
                 </code>
@@ -109,7 +109,31 @@
         <section class="post">
 
             <article role="article" id="post" class="post-content" itemprop="articleBody">
-                <p>Run the <a href="https://github.com/IBM-Swift/Kitura-Sample">IBM Swift Kitura Sample</a> using Docker Compose.</p>
+                <h3 id="ports-and-urls">Ports and URLs</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Port</th>
+      <th>URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Kitura Sample</td>
+      <td>38090</td>
+      <td><a href="http://127.0.0.1:38090">http://127.0.0.1:38090</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="description">Description</h3>
+
+<p>Run and experiment with the <a href="https://github.com/IBM-Swift/Kitura-Sample">IBM Swift Kitura Sample</a> in Docker.</p>
+
+<p>The local src folder will be mapped to the Docker container.
+Changes to the code in the src folder will be monitored by the Docker process, re-compiled, and the HTTP server will be restarted.</p>
 
             </article>
 

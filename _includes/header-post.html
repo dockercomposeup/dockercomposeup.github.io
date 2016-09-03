@@ -18,7 +18,7 @@
         {% if page.gitrepo %}
             <div class="post-code">
                 <code>
-                    git clone {{ page.gitrepo }}<br>
+                    git clone <a href="{{ page.gitrepo }}" style="font-size: 1.0em"><code>{{ page.gitrepo }}</code></a><br>
                     cd {{ page.gitfolder }}<br>
                     docker-compose up
                 </code>

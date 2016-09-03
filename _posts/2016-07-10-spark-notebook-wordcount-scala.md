@@ -15,6 +15,14 @@ gitrepo: https://github.com/markwatsonatx/tutorial-spark-notebook-wordcount-scal
 gitfolder: tutorial-spark-notebook-wordcount-scala
 ---
 
+### Ports and URLs
+
+| Name | Port | URL |
+| ------ | ---- | --- |
+| Notebooks | 38889 | <a href="http://127.0.0.1:38889">http://127.0.0.1:38889</a> |
+
+### Description
+
 In this sample I'll show you how to use Scala Notebooks and Apache Spark
 to perform simple analysis on the Back to the Future transcript.
 
